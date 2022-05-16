@@ -1,1 +1,3 @@
-const inquirer = require('inquirer')
+const Department = require('./lib/Department');
+
+new Department().createDepartment();
